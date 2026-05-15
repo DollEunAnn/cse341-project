@@ -5,7 +5,7 @@
     "description": "API documentation",
     "version": "1.0.0"
   },
-  "host": "https://cse341-project-ljey.onrender.com",
+  "host": "cse341-project-ljey.onrender.com",
   "basePath": "/",
   "schemes": ["https"],
   "paths": {
