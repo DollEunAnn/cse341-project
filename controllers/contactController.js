@@ -70,17 +70,11 @@ const updateUser = async (req, res) => {
     .collection('contacts')
     .replaceOne({ _id: contactId }, contact);
 
-    if(response.modificationCount > 0) {
+    if(response.modifiedCount > 0) {
         res.status(204).send();
     } else {
         res.status(500).json(response.error || 'Some error occurred while updating the contact.');
     }
-
-    // if (response.modifiedCount > 0) {
-    //     res.status(204).send();
-    // } else {
-    //     res.status(404).json('No contact was updated.');
-    // }
 }
 
 const deleteUser = async (req, res) => {
