@@ -6,11 +6,6 @@
     "version": "1.0.0"
   },
   "host": "https://cse341-project-ljey.onrender.com",
-  "servers": [
-    {
-      "url": "https://cse341-project-ljey.onrender.com"
-    }
-  ],
   "basePath": "/",
   "schemes": ["https"],
   "paths": {
