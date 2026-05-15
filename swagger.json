@@ -5,16 +5,14 @@
     "description": "API documentation",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "https://cse341-project-ljey.onrender.com",
   "servers": [
     {
-      "url": "http://localhost:3000"
+      "url": "https://cse341-project-ljey.onrender.com"
     }
   ],
   "basePath": "/",
-  "schemes": [
-    "http"
-  ],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
@@ -26,22 +24,10 @@
         }
       }
     },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
     "/contacts/": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "responses": {
           "200": {
             "description": "OK"
@@ -89,9 +75,7 @@
     "/contacts/{id}": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "parameters": [
           {
             "name": "id",

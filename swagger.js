@@ -10,6 +10,7 @@ const doc = {
       url: "http://localhost:3000",
     },
   ],
+  schemes: ["http", "https"],
 };
 const outputFile = "./swagger.json";
 const endpointsFiles = ["./routes/index.js"]; // adjust if needed
